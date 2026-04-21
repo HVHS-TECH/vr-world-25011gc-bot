@@ -105,7 +105,13 @@
       ply-model="src:clouds-0-cloud.ply"
       position="0 1.2 -2"
       rotation="-90 0 90"
-      animation=""
+      animation="property: position;
+      from: 0 1.2 -2;
+      to: 0 10 -2;
+      dur: 5000;
+      loop: true;
+      "
+      
       ></a-entity>
     </a-scene>
   </body>
